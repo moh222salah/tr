@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en_GB" dir="ltr">
 
@@ -120,37 +121,60 @@
 <!-- Start Top Header -->
 
 
-
-
-
-
-    <!--Main Content-->
-
-
-    <nav class="navbar navbar-area navbar-expand-lg has-topbar nav-style-02">
-          <div class="container nav-container">
-            <div class="responsive-mobile-menu">
-                    <div class="logo-wrapper">
-                    <a href="https://orantentravel.com" class="logo">
-                    <img src="assets/uploads/media-uploader/logoo.png" alt="logo"> </a>
+<div class="summer_all">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="buttonContainer">
+                            <div class="buttonOfferSection d-flex gap-3 align-items-md-center">
+                                <div class="offerHeader d-flex gap-2 align-items-center">
+                                    <div class="iconDiscount">
+                                        <img src="assets/uploads/media-uploader/icon2.png" alt="discount" width="55px" height="55px">
+                                    </div>
+                                </div>
+                                <a href="https://orantentravel.com" > <h5>  Offers Special in Dahab <span></span></h5>
+                                      
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" 
-                    data-target="#bizcoxx_main_menu" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
                 </div>
+            </div>
 
-                <div class="collapse navbar-collapse" id="bizcoxx_main_menu">
-                    <ul class="navbar-nav">
-                     <li class="current-menu-item">
-                        <a href="index.html">Home</a> </li>
-                        <li class=""> <a href="transfer.html"> Transfer </a>
-                        <li class=""> <a href="offers.html">Offers</a> </li>
-                        <li class=""> <a href="blog.html">Blog</a>  </li>
-                        <li class=""> <a href="contact-us.html">Contact Us</a> </li>
-                        <li class=""> <a href="about-us.html">About Us</a> </li>
-                    
- <!-- language_dropdown -->
+
+            <nav class="navbar navbar-expand-lg navbar-light nav-menu-bar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="https://orantentravel.com">
+                    <img src="assets/uploads/media-uploader/l0g0.png" alt=""
+                    title=""> </a>
+                    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+                    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-menu">
+
+                            <li class="nav-item navsLink">
+                                <a href="https://orantentravel.com" aria-current="page" class="nav-link">Home</a>
+                            </li>
+
+                            <li class="nav-item navsLink">
+                                <a href="transfer.html" class="nav-link">Transfer</a>
+                            </li>
+                            <li class="nav-item navsLink">
+                                <a href="offers.html" class="nav-link">Offers</a>
+                            </li>
+                            
+                            <li class="nav-item navsLink">
+                                <a href="blog.html" class="nav-link">Blog</a>
+                            </li>
+
+                            <li class="nav-item navsLink">
+                                <a href="contact-us.html" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+
+<!-- language_dropdown -->
+
                 <div class="language_dropdown" id="languages_selector">                            
                  <div class="selected-language" onclick="toggleLanguageMenu()">
                    <span id="currentFlag" class="fi fi-gb"></span>
@@ -199,67 +223,89 @@
                           </div>
                         </div>
 
+<style>
+  .language_dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .selected-language {
+    cursor: pointer;
+  }
+
+  .selected-language .fi {
+    font-size: 22px;
+    border: none;
+    box-shadow: none;
+  }
+
+  .languages-menu {
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+
+  .languages-menu .lang-option {
+    padding: 8px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .languages-menu .lang-option:hover {
+    background-color: #f0f0f0;
+  }
+
+  .languages-menu .fi {
+    font-size: 20px;
+    border: none;
+  }
+</style>
 
 
-                     <style>
-                     .language_dropdown { 
-                      position: relative;
-                      display: inline-block;    }
-                      .selected-language {
-                      cursor: pointer;  }
- 
-                     .selected-language .fi {
-                      font-size: 22px;
-                      border: none;
-                      box-shadow: none;   }
-                      .languages-menu {
-                      display: none;
-                      position: absolute;
-                      top: 35px;
-                      right: 0;
-                      background: white;
-                      border-radius: 6px;
-                      box-shadow: 0 4px 8px
-                      rgba(0,0,0,0.1);
-                      z-index: 1000;  }
+<script>
+  function toggleLanguageMenu() {
+    const menu = document.getElementById("languageMenu");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  }
 
-                      .languages-menu .lang-option {
-                      padding: 8px 12px;
-                      cursor: pointer;
-                      display: flex;
-                      align-items: center;
-                      gap: 8px;     }
-                     .languages-menu .lang-option:hover {
-                      background-color: #f0f0f0;    }
-                     .languages-menu .fi {
-                      font-size: 20px;
-                      border: none; }
-                </style>
-                <script>
+  function setLanguage(code) {
+    document.getElementById("currentFlag").className = "fi fi-" + code;
+    document.getElementById("languageMenu").style.display = "none";
 
-                     function toggleLanguageMenu() {
-                     const menu = document.getElementById("languageMenu");
-                     menu.style.display = menu.style.display === 
-                     "block" ? "none" : "block"; }
-                     function setLanguage(code) {
-                     document.getElementById("currentFlag").className = "fi fi-" + code;
-                     document.getElementById("languageMenu").style.display = "none";
- 
-                     // يمكنك هنا إضافة الكود لتغيير اللغة فعليًا 
-                      console.log("Language changed to:", code);   }
-                     // إغلاق القائمة إذا تم النقر خارجها
-                     document.addEventListener('click', function(event) {
-                      const dropdown = document.getElementById("languages_selector");
-                     if (!dropdown.contains(event.target)) {
-                    document.getElementById("languageMenu").style.display = "none";  }  });
-                </script>
-                 </ul>
+    // يمكنك هنا إضافة الكود لتغيير اللغة فعليًا
+    console.log("Language changed to:", code);
+  }
+
+  // إغلاق القائمة إذا تم النقر خارجها
+  document.addEventListener('click', function(event) {
+    const dropdown = document.getElementById("languages_selector");
+    if (!dropdown.contains(event.target)) {
+      document.getElementById("languageMenu").style.display = "none";
+    }
+  });
+   </script>
+
+                    </ul>
+                  </div>
+                <div class="nav-right-content">
                 </div>
-               <div class="nav-right-content"> 
-<!-- /End Top Header -->
-    
-  
+                <div class="right-content">
+               <ul class="info-items">
+                </div>
+              </div>
+            </div>
+        </nav>
+    </div>
+                      
 
+    
 <!-- footer-bar  -->
             <div id="footer-bar" class="footer-bar-5">
             <a class="active-nav" href="index.html">
@@ -268,24 +314,49 @@
             </a>
 
             <a href="transfer.html">
-            <span>Transfer</span>
+            <i class="fa-solid fa-paper-plane"></i>
+              <span>Transfer</span>
             </a>
-
-            <a href="offers.html">
-            <span>Offers</span>
-            </a>
-
+            
             <a href="contact-us.html">
-            <span>Contact</span>
+            <i class="fa fa-phone color-phone"></i>
+              <span>Contact</span>
             </a>
 
-            <a href="https://wa.me/+201013800463">
+            <a href="https://wa.me/+201117670277">
+            <i class="fa-brands fa-whatsapp color-phone"></i>
             <span>Whatsapp</span>
             </a>
             </div>
          </div>
        </div>
     </nav>
+    
+
+    <!-- Whatsapp Start -->
+ 
+        <div id="simple-chat-button--container"> <a id="simple-chat-button--button" href="https://api.whatsapp.com/send?phone=+201113903070&amp;text=Hello" target="_blank" rel="nofollow" aria-label="WhatsApp Chat Button"></a> <span id="simple-chat-button--text"></span> </div>
+ 
+       <style>
+
+        #simple-chat-button--container { position: fixed;          bottom: 20px;            right: 20px;            z-index: 999999999;        }
+        #simple-chat-button--button {   display: block;            position: relative;       text-decoration: none;      width: 60px;            height: 60px;            border-radius: 50%;            -webkit-transition: all 0.2s ease-in-out;            transition: all 0.2s ease-in-out;            -webkit-transform: scale(1);            transform: scale(1);            box-shadow: 0 6px 8px 2px rgba(0, 0, 0, .15);
+        background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjU2IiB3aWR0aD0iMjU2IiB2aWV3Qm94PSItMjMgLTIxIDY4MiA2ODIuNjY3IiBmaWxsPSIjZmZmIiB4bWxuczp2PSJodHRwczovL3ZlY3RhLmlvL25hbm8iPjxwYXRoIGQ9Ik01NDQuMzg3IDkzLjAwOEM0ODQuNTEyIDMzLjA2MyA0MDQuODgzLjAzNSAzMjAuMDUxIDAgMTQ1LjI0NiAwIDIuOTggMTQyLjI2MiAyLjkxIDMxNy4xMTNjLS4wMjMgNTUuODk1IDE0LjU3OCAxMTAuNDU3IDQyLjMzMiAxNTguNTUxTC4yNSA2NDBsMTY4LjEyMS00NC4xMDJjNDYuMzI0IDI1LjI3IDk4LjQ3NyAzOC41ODYgMTUxLjU1MSAzOC42MDJoLjEzM2MxNzQuNzg1IDAgMzE3LjA2Ni0xNDIuMjczIDMxNy4xMzMtMzE3LjEzMy4wMzUtODQuNzQyLTMyLjkyMi0xNjQuNDE4LTkyLjgwMS0yMjQuMzU5ek0zMjAuMDUxIDU4MC45NDFoLS4xMDljLTQ3LjI5Ny0uMDItOTMuNjg0LTEyLjczLTEzNC4xNi0zNi43NDJsLTkuNjIxLTUuNzE1LTk5Ljc2NiAyNi4xNzIgMjYuNjI5LTk3LjI3LTYuMjctOS45NzNjLTI2LjM4Ny00MS45NjktNDAuMzItOTAuNDc3LTQwLjI5Ny0xNDAuMjgxLjA1NS0xNDUuMzMyIDExOC4zMDUtMjYzLjU3IDI2My42OTktMjYzLjU3IDcwLjQwNi4wMjMgMTM2LjU5IDI3LjQ3NyAxODYuMzU1IDc3LjMwMXM3Ny4xNTYgMTE2LjA1MSA3Ny4xMzMgMTg2LjQ4NGMtLjA2MiAxNDUuMzQ0LTExOC4zMDUgMjYzLjU5NC0yNjMuNTk0IDI2My41OTR6bTE0NC41ODYtMTk3LjQxOGMtNy45MjItMy45NjktNDYuODgzLTIzLjEzMy01NC4xNDgtMjUuNzgxLTcuMjU4LTIuNjQ1LTEyLjU0Ny0zLjk2MS0xNy44MjQgMy45NjktNS4yODUgNy45My0yMC40NjkgMjUuNzgxLTI1LjA5NCAzMS4wNjZzLTkuMjQyIDUuOTUzLTE3LjE2OCAxLjk4NC0zMy40NTctMTIuMzM2LTYzLjcyNy0zOS4zMzJjLTIzLjU1NS0yMS4wMTItMzkuNDU3LTQ2Ljk2MS00NC4wODItNTQuODkxLTQuNjE3LTcuOTM3LS4wMzktMTEuODEyIDMuNDc3LTE2LjE3MiA4LjU3OC0xMC42NTIgMTcuMTY4LTIxLjgyIDE5LjgwOS0yNy4xMDVzMS4zMi05LjkxOC0uNjY0LTEzLjg4M2MtMS45NzctMy45NjUtMTcuODI0LTQyLjk2OS0yNC40MjYtNTguODQtNi40MzctMTUuNDQ1LTEyLjk2NS0xMy4zNTktMTcuODMyLTEzLjYwMi00LjYxNy0uMjMtOS45MDItLjI3Ny0xNS4xODctLjI3N3MtMTMuODY3IDEuOTgtMjEuMTMzIDkuOTE4LTI3LjczIDI3LjEwMi0yNy43MyA2Ni4xMDUgMjguMzk1IDc2LjY4NCAzMi4zNTUgODEuOTczIDU1Ljg3OSA4NS4zMjggMTM1LjM2NyAxMTkuNjQ4YzE4LjkwNiA4LjE3MiAzMy42NjQgMTMuMDQzIDQ1LjE3NiAxNi42OTUgMTguOTg0IDYuMDMxIDM2LjI1NCA1LjE4IDQ5LjkxIDMuMTQxIDE1LjIyNy0yLjI3NyA0Ni44NzktMTkuMTcyIDUzLjQ4OC0zNy42OCA2LjYwMi0xOC41MTIgNi42MDItMzQuMzc1IDQuNjE3LTM3LjY4NC0xLjk3Ny0zLjMwNS03LjI2Mi01LjI4NS0xNS4xODQtOS4yNTR6bTAgMCIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+") center/44px 44px no-repeat #25D366;        }
+        #simple-chat-button--text {            display: none;            position: absolute;            width: max-content;            background-color: #fff;            bottom: 15px;            right: 70px;            border-radius: 5px;            padding: 5px 10px;            color: #000;            font-size: 13px;            font-weight: 700;            letter-spacing: -0.03em;            -webkit-user-select: none;            -moz-user-select: none;            -ms-user-select: none;            user-select: none;            word-break: keep-all;            line-height: 1em;            text-overflow: ellipsis;            vertical-align: middle;            box-shadow: 0 6px 8px 2px rgba(0, 0, 0, .15);        }
+        #simple-chat-button--button:before {           content: "";           position: absolute;     top: 0;            bottom: 0;            left: 0;            right: 0;            border-radius: 50%;        -webkit-animation: scb-shockwave-animation 2s 5.3s ease-out infinite;            animation: scb-shockwave-animation 2s 5.3s ease-out infinite;            z-index: -1;        }
+        #simple-chat-button--button:hover {            -webkit-transform: scale(1.06);            transform: scale(1.06);            -webkit-transition: all 0.2s ease-in-out;            transition: all 0.2s ease-in-out;        }        @media only screen and (max-width: 1024px) {
+        #simple-chat-button--container {                bottom: 20px;            }        }        @media only screen and (max-width: 768px) {
+        #simple-chat-button--container {                bottom: 20px;            }        }        @-webkit-keyframes scb-shockwave-animation {            0% {                -webkit-transform: scale(1);                transform: scale(1);                box-shadow: 0 0 2px rgba(0, 100, 0, .5), inset 0 0 1px rgba(0, 100, 0, .5);            }            95% {                box-shadow: 0 0 50px transparent, inset 0 0 30px transparent;            }            100% {                -webkit-transform: scale(1.2);                transform: scale(1.2);            }        }        @keyframes scb-shockwave-animation {            0% {                -webkit-transform: scale(1);                transform: scale(1);                box-shadow: 0 0 2px rgba(0, 100, 0, .5), inset 0 0 1px rgba(0, 100, 0, .5);            }            95% {                box-shadow: 0 0 50px transparent, inset 0 0 30px transparent;            }            100% {                -webkit-transform: scale(1.2);      transform: scale(1.2);            }       }
+
+        @media only screen and (max-width: 768px) {
+          #simple-chat-button--container {       display: none;    } }
+
+
+</style>
+
+<!-- Whatsapp End -->
+
+
 
 
  <!--start-bg-holder-->
@@ -332,110 +403,32 @@
                     data-route="https://orantentravel.com/">
                     <option value="0"> Select Country                    ?</option>
                 <option value="Egypt">Egypt</option>
-                <option value="Iraq">Iraq</option>
-                <option value="Kuwait">Kuwait</option>
-                <option value="Lebanon">Lebanon</option>
-                <option value="Malaysia">Malaysia</option>
-                <option value="Maldives">Maldives</option>
-                <option value="Morocco">Morocco</option>
-                <option value="New Zealand">New Zealand</option>
-                <option value="Oman">Oman</option>
-                <option value="Qatar">Qatar</option>
-                <option value="Saudi Arabia">Saudi Arabia</option>
-                <option value="Syrian Arab Republic">Syrian Arab Republic</option>
-                <option value="Tunisia">Tunisia</option>
-                <option value="Turkey">Turkey</option>
                  <option value="United Arab Emirates">United Arab Emirates</option>
-                <option value="United Kingdom">United Kingdom</option>
-                <option value="United States">United States</option>
-                <option value="New Zealand">New Zealand</option>
-                <option value="Nicaragua">Nicaragua</option>
-                <option value="Niger">Niger</option>
-                <option value="Nigeria">Nigeria</option>
-                <option value="Niue">Niue</option>
-                <option value="Norfolk Island">Norfolk Island</option>
-                <option value="Northern Mariana Islands">Northern Mariana Islands</option>
-                <option value="Norway">Norway</option>
-                <option value="Oman">Oman</option>
-                <option value="Pakistan">Pakistan</option>
-                <option value="Palau">Palau</option>
-                <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
-                <option value="Panama">Panama</option>
-                <option value="Papua New Guinea">Papua New Guinea</option>
-                <option value="Paraguay">Paraguay</option>
-                <option value="Peru">Peru</option>
-                <option value="Philippines">Philippines</option>
-                <option value="Pitcairn">Pitcairn</option>
-                <option value="Poland">Poland</option>
-                <option value="Portugal">Portugal</option>
-                <option value="Puerto Rico">Puerto Rico</option>
-                <option value="Qatar">Qatar</option>
-                <option value="Reunion">Reunion</option>
-                <option value="Romania">Romania</option>
-                <option value="Russian Federation">Russian Federation</option>
-                <option value="Rwanda">Rwanda</option>
-                <option value="Saint Helena">Saint Helena</option>
-                <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
-                <option value="Saint Lucia">Saint Lucia</option>
-                <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
-                <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
-                <option value="Samoa">Samoa</option>
-                <option value="San Marino">San Marino</option>
-                <option value="Sao Tome and Principe">Sao Tome and Principe</option>
                 <option value="Saudi Arabia">Saudi Arabia</option>
-                <option value="Senegal">Senegal</option>
-                <option value="Serbia">Serbia</option>
-                <option value="Seychelles">Seychelles</option>
-                <option value="Sierra Leone">Sierra Leone</option>
-                <option value="Singapore">Singapore</option>
-                <option value="Slovakia">Slovakia</option>
-                <option value="Slovenia">Slovenia</option>
-                <option value="Solomon Islands">Solomon Islands</option>
-                <option value="Somalia">Somalia</option>
-                <option value="South Africa">South Africa</option>
-                <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
-                <option value="Spain">Spain</option>
-                <option value="Sri Lanka">Sri Lanka</option>
-                <option value="Sudan">Sudan</option>
-                <option value="Suriname">Suriname</option>
-                <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
-                <option value="Swaziland">Swaziland</option>
-                <option value="Sweden">Sweden</option>
-                <option value="Switzerland">Switzerland</option>
-                <option value="Syrian Arab Republic">Syrian Arab Republic</option>
-                <option value="Taiwan">Taiwan</option>
-                <option value="Tajikistan">Tajikistan</option>
-                <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
-                <option value="Thailand">Thailand</option>
-                <option value="Timor-leste">Timor-leste</option>
-                <option value="Togo">Togo</option>
-                <option value="Tokelau">Tokelau</option>
-                <option value="Tonga">Tonga</option>
-                <option value="Trinidad and Tobago">Trinidad and Tobago</option>
-                <option value="Tunisia">Tunisia</option>
                 <option value="Turkey">Turkey</option>
-                <option value="Turkmenistan">Turkmenistan</option>
-                <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
-                <option value="Tuvalu">Tuvalu</option>
-                <option value="Uganda">Uganda</option>
-                <option value="Ukraine">Ukraine</option>
-                <option value="United Arab Emirates">United Arab Emirates</option>
                 <option value="United Kingdom">United Kingdom</option>
                 <option value="United States">United States</option>
-                <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
-                <option value="Uruguay">Uruguay</option>
-                <option value="Uzbekistan">Uzbekistan</option>
-                <option value="Vanuatu">Vanuatu</option>
-                <option value="Venezuela">Venezuela</option>
-                <option value="Viet Nam">Viet Nam</option>
-                <option value="Virgin Islands, British">Virgin Islands, British</option>
-                <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
-                <option value="Wallis and Futuna">Wallis and Futuna</option>
-                <option value="Western Sahara">Western Sahara</option>
-                <option value="Yemen">Yemen</option>
-                <option value="Zambia">Zambia</option>
-                <option value="Zimbabwe">Zimbabwe</option>
-
+                <option value="france">France</option>
+                <option value="spain">Spain</option>
+                <option value="italy">Italy</option>
+                <option value="greece">Greece</option>
+                <option value="Maldives">Maldives</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="thailand">Thailand</option>
+                <option value="germany">Germany</option>
+                <option value="japan">Japan</option>
+                <option value="australia">Australia</option>
+                <option value="netherlands">Netherlands</option>
+                <option value="portugal">Portugal</option>
+                <option value="austria">Austria</option>
+                <option value="canada">Canada</option>
+                <option value="switzerland">Switzerland</option>
+                <option value="Morocco">Morocco</option>
+                <option value="Oman">Oman</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Russian Federation">Russian Federation</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied State </option>
                     <option value="10">Packages</option>              
                   </select>                
                 </div>
@@ -451,42 +444,63 @@
                       <option value="luxor">Luxor</option>
                       <option value="alexandria">Alexandria</option>
                       <option value="marsamatrouh">Marsa Matrouh</option>
-                      <option value="faiyum">Faiyum</option>
-                      <option value="port_said">Port Said</option>
-                      <option value="suez">Suez</option>
-                      <option value="arish">Arish</option>
-                      <option value="beni_suef">Beni Suef</option>
-                      <option value="minya">Minya</option>
-                      <option value="sohag">Sohag</option>
-                      <option value="sharm">Sharm El Sheikh</option>
-                      <option value="hurghada">Hurghada</option>
-                      <option value="aswan">Aswan</option>
-                      <option value="luxor">Luxor</option>
-                      <option value="alexandria">Alexandria</option>
-                      <option value="marsamatrouh">Marsa Matrouh</option>
-                      <option value="faiyum">Faiyum</option>
-                      <option value="port_said">Port Said</option>
-                      <option value="suez">Suez</option>
-                      <option value="arish">Arish</option>
-                      <option value="beni_suef">Beni Suef</option>
-                      <option value="minya">Minya</option>
-                      <option value="sohag">Sohag</option>
-                      <option value="qena">Qena</option>
+                      
+                      <option value="abu_dhabi">Abu Dhabi</option>
+                      <option value="dubai">Dubai</option>
+                      <option value="riyadh">Riyadh</option>
+                      <option value="jeddah">Jeddah</option>
+                      <option value="al_ain"> Istanbul </option>
+
+                      <option value="paris">Paris</option>
+                      <option value="london">London</option>
+                      <option value="rome">Rome</option>
+                      <option value="new_york">New York</option>
+                      <option value="las_vegas">Las Vegas</option>
+                      <option value="vienna">Vienna</option>
+                      <option value="venice">Venice</option>
+                      <option value="barcelona">Barcelona</option>
+                      <option value="bangkok">Bangkok</option>
+                      <option value="singapore">Singapore</option>
+                      <option value="tokyo">Tokyo</option>
+                      <option value="kuala_lumpur">Kuala Lumpur</option>
+                      <option value="sydney">Sydney</option>
+                      <option value="los_angeles">Los Angeles</option>
+                      <option value="amsterdam">Amsterdam</option>
+                      <option value="bali">Bali</option>
+                      <option value="cape_town">Cape Town</option>
+                      <option value="prague">Prague</option>
+
+                      <option value="beirut">Beirut</option>
+                      <option value="marrakech">Marrakech</option>
+                      <option value="casablanca">Casablanca</option>
+                      <option value="tunis">Tunis</option>
+                      <option value="amman">Amman</option>
+                      <option value="aqaba">Aqaba</option>
+                      <option value="beirut">Beirut</option>
+                      <option value="byblos">Byblos</option>
+                      <option value="muscat">Muscat</option>
+                      <option value="salalah">Salalah</option>
+                      <option value="doha">Doha</option>
+                      <option value="algiers">Algiers</option>
+                      <option value="tlemcen">Tlemcen</option>
+                      <option value="khartoum">Khartoum</option>
+                      <option value="sana'a">Sana'a</option>
+                      <option value="manama">Manama</option>
+
                       <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
                       </select>
                       </div>
 
-                <div class="wpte-trip__adv-field wpte__select-field">
-                    <select class="form-control fild_search" name="Duration">
+                    <div class="wpte-trip__adv-field wpte__select-field">
+                    <select class="form-control fild_search" name="category" id="sub-select-new">
                     <option value="0"> Trip Type      ?  </option>
-                    <option value="2">Safari And Desert</option>
-                    <option value="4">Historical And Cultural trip</option>
-                    <option value="5">Red Sea Trips</option>
-                    <option value="6">Family Tours</option>
-                    <option value="8">Transfers Only Tours</option>
-                    <option value="7">Scuba Diving Tours</option>
-                    <option value="9">Nile Cruises</option>              
-                    <option value="10">Packages</option>              
+                    <option value="Safari And Desert">Safari And Desert</option>
+                    <option value="Red Sea Trips">Red Sea Trips</option>
+                    <option value="Family Tours">Family Tours</option>
+                    <option value="Transfers Only Tours">Transfers Only Tours</option>
+                    <option value="Scuba Diving Tours">Scuba Diving Tours</option>
+                    <option value="Nile Cruises">Nile Cruises</option>              
+                    <option value="Historical And Cultural trip">Historical And Cultural trip</option>
                   </select>
                 </div>
 
@@ -496,12 +510,13 @@
                    .btn_serach {    background-color: #0150fa; /* أزرق مثلاً */
                    color: white;              /* لون النص */  }
                   </style>
-
                 </button>
               </div>
             </form>
         </div>
     </div>
+
+
     <hr>
 
 
@@ -510,25 +525,25 @@
         <div class="container">
           <div class="position-absolute start-100 bottom-0 translate-middle-x d-none d-xl-block ms-xl-n4">
             <img src="assets/img/dest/shape.svg" alt="destination" /></div>
-          <div class="mb-7 text-center">
+            <div class="mb-7 text-center">
             <h2 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">Top Trips </h2>
             <h3 class="widget_title light"></h3>
-          </div>
+            </div>
 
-          <div class="row">
+
+            <div class="row">
             <div class="col-md-4 mb-4">
               <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/uploads/media-uploader/hurghada.jpg" alt="hurghada, Egypt" />
                 <div class="card-body py-4 px-3">
                   <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="travel_details.html">Hurghada</a></h4>
-                    <span class="fs-1 fw-medium"></span>
-                     </div>
-                   <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" />
-                  <span class="fs-0 fw-medium">10 Days Trip</span></div>
+                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="travel_details.html">Hurghada</a></h4><span class="fs-1 fw-medium"></span>
+                  </div>
+                  <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">10 Trip</span></div>
                 </div>
               </div>
             </div>
-        
+
+            
             <div class="col-md-4 mb-4">
               <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/uploads/media-uploader/marsaalam.jpg" alt="Marsa Alam, Egypt" />
                 <div class="card-body py-4 px-3">
@@ -536,7 +551,7 @@
                     <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="travel_details.html">Marsa Alam</a></h4><span class="fs-1 fw-medium"></span>
                   </div>
                   <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" />
-                    <span class="fs-0 fw-medium">14 Days Trip</span></div>
+                    <span class="fs-0 fw-medium">14 Trip</span></div>
                 </div>
               </div>
             </div>
@@ -549,7 +564,7 @@
                     <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="travel_details.html"> Alamein New </a></h4><span class="fs-1 fw-medium"></span>
                   </div>
                   <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" />
-                    <span class="fs-0 fw-medium">17 Days Trip</span></div>
+                    <span class="fs-0 fw-medium">17 Trip</span></div>
                 </div>
               </div>
             </div>
@@ -561,7 +576,7 @@
                     <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="travel_details.html">Cairo</a></h4><span class="fs-1 fw-medium"></span>
                   </div>
                   <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" />
-                    <span class="fs-0 fw-medium">11 Days Trip</span></div>
+                    <span class="fs-0 fw-medium">11 Trip</span></div>
                 </div>
               </div>
             </div>
@@ -573,7 +588,7 @@
                     <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="travel_details.html"> Al Guna </a></h4><span class="fs-1 fw-medium"></span>
                   </div>
                   <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" />
-                    <span class="fs-0 fw-medium">7 Days Trip</span></div>
+                    <span class="fs-0 fw-medium">7 Trip</span></div>
                 </div>
               </div>
             </div>
@@ -585,7 +600,7 @@
                     <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="travel_details.html">Alexandria</a></h4><span class="fs-1 fw-medium"></span>
                   </div>
                   <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" />
-                    <span class="fs-0 fw-medium">15 Days Trip</span></div>
+                    <span class="fs-0 fw-medium">15 Trip</span></div>
                 </div>
               </div>
             </div>
@@ -598,7 +613,7 @@
                     <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="travel_details.html">Luxor</a></h4><span class="fs-1 fw-medium"></span>
                   </div>
                   <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" />
-                    <span class="fs-0 fw-medium">25 Days Trip</span></div>
+                    <span class="fs-0 fw-medium">25 Trip</span></div>
                 </div>
               </div>
             </div>
@@ -610,7 +625,7 @@
                     <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="travel_details.html">Aswan</a></h4><span class="fs-1 fw-medium"></span>
                   </div>
                   <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" />
-                    <span class="fs-0 fw-medium">28 Days Trip</span></div>
+                    <span class="fs-0 fw-medium">28 Trip</span></div>
                 </div>
               </div>
             </div>
@@ -622,7 +637,7 @@
                     <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="travel_details.html"> Dahab </a></h4><span class="fs-1 fw-medium"></span>
                   </div>
                   <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" />
-                    <span class="fs-0 fw-medium">12 Days Trip</span></div>
+                    <span class="fs-0 fw-medium">12 Trip</span></div>
                 </div>
               </div>
             </div>
@@ -861,7 +876,6 @@
 
                     <div class="col-md-6 col-lg-4 widget-column v3">
                         <div class="widget footer-widget widget_nav_menu">
-
                            <img src="assets/uploads/media-uploader/logo0.png" alt="logo">
                             <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="289.000000pt" height="14.000000pt" viewBox="0 0 289.000000 14.000000"
                              preserveAspectRatio="xMidYMid meet">
@@ -962,122 +976,6 @@
                    </div>
                 </footer>
 
-
-
-    <!-- Start Simple Chat Button Plugin -->
-    <style>
-        #simple-chat-button--container {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 999999999;
-        }
-
-        #simple-chat-button--button {
-            display: block;
-            position: relative;
-            text-decoration: none;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            -webkit-transition: all 0.2s ease-in-out;
-            transition: all 0.2s ease-in-out;
-            -webkit-transform: scale(1);
-            transform: scale(1);
-            box-shadow: 0 6px 8px 2px rgba(0, 0, 0, .15);
-            background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjU2IiB3aWR0aD0iMjU2IiB2aWV3Qm94PSItMjMgLTIxIDY4MiA2ODIuNjY3IiBmaWxsPSIjZmZmIiB4bWxuczp2PSJodHRwczovL3ZlY3RhLmlvL25hbm8iPjxwYXRoIGQ9Ik01NDQuMzg3IDkzLjAwOEM0ODQuNTEyIDMzLjA2MyA0MDQuODgzLjAzNSAzMjAuMDUxIDAgMTQ1LjI0NiAwIDIuOTggMTQyLjI2MiAyLjkxIDMxNy4xMTNjLS4wMjMgNTUuODk1IDE0LjU3OCAxMTAuNDU3IDQyLjMzMiAxNTguNTUxTC4yNSA2NDBsMTY4LjEyMS00NC4xMDJjNDYuMzI0IDI1LjI3IDk4LjQ3NyAzOC41ODYgMTUxLjU1MSAzOC42MDJoLjEzM2MxNzQuNzg1IDAgMzE3LjA2Ni0xNDIuMjczIDMxNy4xMzMtMzE3LjEzMy4wMzUtODQuNzQyLTMyLjkyMi0xNjQuNDE4LTkyLjgwMS0yMjQuMzU5ek0zMjAuMDUxIDU4MC45NDFoLS4xMDljLTQ3LjI5Ny0uMDItOTMuNjg0LTEyLjczLTEzNC4xNi0zNi43NDJsLTkuNjIxLTUuNzE1LTk5Ljc2NiAyNi4xNzIgMjYuNjI5LTk3LjI3LTYuMjctOS45NzNjLTI2LjM4Ny00MS45NjktNDAuMzItOTAuNDc3LTQwLjI5Ny0xNDAuMjgxLjA1NS0xNDUuMzMyIDExOC4zMDUtMjYzLjU3IDI2My42OTktMjYzLjU3IDcwLjQwNi4wMjMgMTM2LjU5IDI3LjQ3NyAxODYuMzU1IDc3LjMwMXM3Ny4xNTYgMTE2LjA1MSA3Ny4xMzMgMTg2LjQ4NGMtLjA2MiAxNDUuMzQ0LTExOC4zMDUgMjYzLjU5NC0yNjMuNTk0IDI2My41OTR6bTE0NC41ODYtMTk3LjQxOGMtNy45MjItMy45NjktNDYuODgzLTIzLjEzMy01NC4xNDgtMjUuNzgxLTcuMjU4LTIuNjQ1LTEyLjU0Ny0zLjk2MS0xNy44MjQgMy45NjktNS4yODUgNy45My0yMC40NjkgMjUuNzgxLTI1LjA5NCAzMS4wNjZzLTkuMjQyIDUuOTUzLTE3LjE2OCAxLjk4NC0zMy40NTctMTIuMzM2LTYzLjcyNy0zOS4zMzJjLTIzLjU1NS0yMS4wMTItMzkuNDU3LTQ2Ljk2MS00NC4wODItNTQuODkxLTQuNjE3LTcuOTM3LS4wMzktMTEuODEyIDMuNDc3LTE2LjE3MiA4LjU3OC0xMC42NTIgMTcuMTY4LTIxLjgyIDE5LjgwOS0yNy4xMDVzMS4zMi05LjkxOC0uNjY0LTEzLjg4M2MtMS45NzctMy45NjUtMTcuODI0LTQyLjk2OS0yNC40MjYtNTguODQtNi40MzctMTUuNDQ1LTEyLjk2NS0xMy4zNTktMTcuODMyLTEzLjYwMi00LjYxNy0uMjMtOS45MDItLjI3Ny0xNS4xODctLjI3N3MtMTMuODY3IDEuOTgtMjEuMTMzIDkuOTE4LTI3LjczIDI3LjEwMi0yNy43MyA2Ni4xMDUgMjguMzk1IDc2LjY4NCAzMi4zNTUgODEuOTczIDU1Ljg3OSA4NS4zMjggMTM1LjM2NyAxMTkuNjQ4YzE4LjkwNiA4LjE3MiAzMy42NjQgMTMuMDQzIDQ1LjE3NiAxNi42OTUgMTguOTg0IDYuMDMxIDM2LjI1NCA1LjE4IDQ5LjkxIDMuMTQxIDE1LjIyNy0yLjI3NyA0Ni44NzktMTkuMTcyIDUzLjQ4OC0zNy42OCA2LjYwMi0xOC41MTIgNi42MDItMzQuMzc1IDQuNjE3LTM3LjY4NC0xLjk3Ny0zLjMwNS03LjI2Mi01LjI4NS0xNS4xODQtOS4yNTR6bTAgMCIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+") center/44px 44px no-repeat #25D366;
-        }
-
-        #simple-chat-button--text {
-            display: none;
-            position: absolute;
-            width: max-content;
-            background-color: #fff;
-            bottom: 15px;
-            right: 70px;
-            border-radius: 5px;
-            padding: 5px 10px;
-            color: #000;
-            font-size: 13px;
-            font-weight: 700;
-            letter-spacing: -0.03em;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            word-break: keep-all;
-            line-height: 1em;
-            text-overflow: ellipsis;
-            vertical-align: middle;
-            box-shadow: 0 6px 8px 2px rgba(0, 0, 0, .15);
-        }
-
-        #simple-chat-button--button:before {
-            content: "";
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            border-radius: 50%;
-            -webkit-animation: scb-shockwave-animation 2s 5.3s ease-out infinite;
-            animation: scb-shockwave-animation 2s 5.3s ease-out infinite;
-            z-index: -1;
-        }
-
-        #simple-chat-button--button:hover {
-            -webkit-transform: scale(1.06);
-            transform: scale(1.06);
-            -webkit-transition: all 0.2s ease-in-out;
-            transition: all 0.2s ease-in-out;
-        }
-
-        @media only screen and (max-width: 1024px) {
-            #simple-chat-button--container {
-                bottom: 20px;
-            }
-        }
-
-        @media only screen and (max-width: 768px) {
-            #simple-chat-button--container {
-                bottom: 20px;
-            }
-        }
-
-        @-webkit-keyframes scb-shockwave-animation {
-            0% {
-                -webkit-transform: scale(1);
-                transform: scale(1);
-                box-shadow: 0 0 2px rgba(0, 100, 0, .5), inset 0 0 1px rgba(0, 100, 0, .5);
-            }
-            95% {
-                box-shadow: 0 0 50px transparent, inset 0 0 30px transparent;
-            }
-            100% {
-                -webkit-transform: scale(1.2);
-                transform: scale(1.2);
-            }
-        }
-
-        @keyframes scb-shockwave-animation {
-            0% {
-                -webkit-transform: scale(1);
-                transform: scale(1);
-                box-shadow: 0 0 2px rgba(0, 100, 0, .5), inset 0 0 1px rgba(0, 100, 0, .5);
-            }
-            95% {
-                box-shadow: 0 0 50px transparent, inset 0 0 30px transparent;
-            }
-            100% {
-                -webkit-transform: scale(1.2);
-                transform: scale(1.2);
-            }
-        }
-    </style>
-    <div id="simple-chat-button--container"> <a id="simple-chat-button--button" 
-      href="https://api.whatsapp.com/send?phone=+201013800463&amp;text=Hello" target="_blank" 
-      rel="nofollow" aria-label="WhatsApp Chat Button"></a> <span id="simple-chat-button--text"></span> </div>
-    <!-- End Simple Chat Button Plugin -->
 
 
     <!-- jquery -->
@@ -1270,22 +1168,6 @@
          </script>
            
 
-           <!-- tawk api key  -->
-           <!--Start of Tawk.to Script-->
-           <script type="text/javascript">
-           var Tawk_API = Tawk_API || {},
-            Tawk_LoadStart = new Date();
-           (function() {
-            var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = "https://embed.tawk.to/5e0b3e167e39ea1242a27b69/default";
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
-</body>
+  </body>
 
 </html>
